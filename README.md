@@ -34,7 +34,7 @@ Coinhunter [OPTIONS] [TARGETS]
 # Example usage
 Trying our luck on puzzle 66:
 
-`./Coinhunter -t 0 -g --gpui 0 --gpux 256,256 -m addresses --coin BTC -o Found.txt --range 20000000000000000:3ffffffffffffffff 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so`
+`./Coinhunter -t 0 -g --gpui 0 --gpux 256,256 -m address --coin BTC -o Found.txt --range 20000000000000000:3ffffffffffffffff 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so`
 
 Brute Forcing a list of addresses using GPU in 160-bit range:
 
