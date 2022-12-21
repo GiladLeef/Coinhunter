@@ -34,10 +34,10 @@ void usage()
 	printf("-i, --in FILE                            : Read rmd160 hashes or xpoints from FILE, it should be in sorted binary format\n");
 	printf("-o, --out FILE                           : Write found keys to FILE, default: Found.txt\n");
 	printf("-m, --mode MODE                          : Specify search mode ADDRESS, ADDRESSES, XPOINT, XPOINTS \n");
-	printf("-t, --thread N                           : Specify number of CPU thread, default is number of cores available\n");
+	printf("-t, --thread N                           : Specify number of CPU threads, default is number of cores available\n");
 	printf("-r, --rkey Rkey                          : Random key interval in MegaKeys, default is disabled\n");
 	printf("--range 1:ffff                           : Specify the keyspace range to search in\n");
-	printf("--coin BTC/ETH                           : Specify Coin name to search. ETH supports only ADDRESS and ADDRESSES modes.\n");
+	printf("--coin BTC/ETH                           : Specify Coin name to search. ETH supports only ADDRESS and ADDRESSES modes\n");
 	printf("--gpui 0, 1, 2                           : List of GPU(s) to use, default is 0\n");
 	printf("--gpux g0x, g0y                          : Specify GPU(s) kernel gridsize, default is 8*(Device MP count)\n");
 	printf("\n");
