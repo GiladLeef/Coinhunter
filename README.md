@@ -1,9 +1,15 @@
 # Coinhunter
 Hunting for bitcoin private keys
 
+Building CPU-ONLY Version:
+
 `make all`
 
-`make gpu=1 CCAP=61 all`
+Building CUDA-SUPPORTED Version:
+
+`make gpu=1 CCAP=N all`
+
+Where N is your CUDA device compute capability.
 
 
 ```
