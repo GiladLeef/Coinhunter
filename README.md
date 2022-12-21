@@ -6,7 +6,8 @@ Hunting for bitcoin private keys
 `make gpu=1 CCAP=61 all`
 
 
-`Coinhunter [OPTIONS] [TARGETS]
+```
+Coinhunter [OPTIONS] [TARGETS]
 -h, --help                               : Display this help message
 -v, --version                            : Show Coinhunter version
 -c, --check                              : Check if the system works
@@ -22,7 +23,8 @@ Hunting for bitcoin private keys
 --range 1:ffff                           : Specify the keyspace range to search in
 --coin BTC/ETH                           : Specify Coin name to search. ETH supports only ADDRESS and ADDRESSES modes.
 --gpui 0, 1, 2                           : List of GPU(s) to use, default is 0
---gpux g0x, g0y                          : Specify GPU(s) kernel gridsize, default is 8*(Device MP count)`
+--gpux g0x, g0y                          : Specify GPU(s) kernel gridsize, default is 8*(Device MP count)
+```
 
 
 ## addr-to-hash160.py
