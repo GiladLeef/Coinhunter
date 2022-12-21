@@ -26,7 +26,7 @@ python eth-addr-to-bin.py addr.txt addr.bin
 ```
 
 ## Binsort
-g++ -O2 binsort.cpp
+Compile/Build `g++ -O2 binsort.cpp`
 For hash160 and keccak160 ```length``` is ```20``` and for xpoint ```length``` is ```32```.
 ```
 binsort.exe
