@@ -40,6 +40,8 @@ void usage()
 	printf("--coin BTC/ETH                           : Specify Coin name to search. ETH supports only ADDRESS and ADDRESSES modes.\n");
 	printf("--gpui 0, 1, 2                           : List of GPU(s) to use, default is 0\n");
 	printf("--gpux g0x, g0y                          : Specify GPU(s) kernel gridsize, default is 8*(Device MP count)\n");
+	printf("\n");
+
 }
 
 // ----------------------------------------------------------------------------
