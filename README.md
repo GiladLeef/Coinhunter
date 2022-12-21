@@ -8,6 +8,7 @@ Hunting for bitcoin private keys
 
 ```
 Coinhunter [OPTIONS] [TARGETS]
+
 -h, --help                               : Display this help message
 -v, --version                            : Show Coinhunter version
 -c, --check                              : Check if the system works
