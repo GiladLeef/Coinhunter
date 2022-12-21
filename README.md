@@ -32,7 +32,7 @@ Coinhunter [OPTIONS] [TARGETS]
 --gpux g0x, g0y                          : Specify GPU(s) kernel gridsize, default is 8*(Device MP count)
 ```
 # Example usage
-Brute Forcing all addresses with balance using GPU in 160-bit range:
+Brute Forcing a list of addresses using GPU in 160-bit range:
 
 `./Coinhunter -t 0 -g --gpui 0 --gpux 256,256 -m addresses --coin BTC -o Found.txt --range 8000000000000000000000000000000000000000:ffffffffffffffffffffffffffffffffffffffff --in addr.txt`
 
