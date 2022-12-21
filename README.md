@@ -34,7 +34,7 @@ Coinhunter [OPTIONS] [TARGETS]
 # Example usage
 Brute Forcing all addresses with balance using GPU in 256-bit range:
 
-./Coinhunter -t 0 -g --gpui 0 --gpux 256,256 -m addresses --coin BTC -o Found.txt --range 8000000000000000000000000000000000000000000000000000000000000000 --in addr.txt
+`./Coinhunter -t 0 -g --gpui 0 --gpux 256,256 -m addresses --coin BTC -o Found.txt --range 8000000000000000000000000000000000000000000000000000000000000000 --in addr.txt`
 
 ## addr-to-hash160.py
 ```
