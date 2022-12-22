@@ -1,5 +1,6 @@
 # Coinhunter
 Hunting for bitcoin/ethereum private keys
+
 Libraries installation:
 
 `sudo apt install -y libgmp-dev`
