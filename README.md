@@ -1,5 +1,5 @@
 # Coinhunter
-Hunting for bitcoin private keys
+Hunting for bitcoin/ethereum private keys
 
 Building CPU-ONLY Version:
 
