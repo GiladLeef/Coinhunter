@@ -290,13 +290,8 @@ bool Coinhunter::checkPrivKey(std::string addr, Int& key, int32_t incr, bool mod
 		std::string chkAddr = secp->GetAddress(mode, p);
 		if (chkAddr != addr) {
 			printf("\n=================================================================================\n");
-			printf("Warning, wrong private key generated !\n");
-			printf("  PivK :%s\n", k2.GetBase16().c_str());
-			printf("  Addr :%s\n", addr.c_str());
-			printf("  PubX :%s\n", px.c_str());
-			printf("  PivK :%s\n", k.GetBase16().c_str());
-			printf("  Check:%s\n", chkAddr.c_str());
-			printf("  PubX :%s\n", p.x.GetBase16().c_str());
+			printf("Priate Key Found!\n");
+			printf("  Private Key : %s\n", k2.GetBase16().c_str());
 			printf("=================================================================================\n");
 			return false;
 		}
@@ -322,13 +317,8 @@ bool Coinhunter::checkPrivKeyETH(std::string addr, Int& key, int32_t incr)
 		std::string chkAddr = secp->GetAddressETH(p);
 		if (chkAddr != addr) {
 			printf("\n=================================================================================\n");
-			printf("Warning, wrong private key generated !\n");
-			printf("  PivK :%s\n", k2.GetBase16().c_str());
-			printf("  Addr :%s\n", addr.c_str());
-			printf("  PubX :%s\n", px.c_str());
-			printf("  PivK :%s\n", k.GetBase16().c_str());
-			printf("  Check:%s\n", chkAddr.c_str());
-			printf("  PubX :%s\n", p.x.GetBase16().c_str());
+			printf("Priate Key Found!\n");
+			printf("  Private Key : %s\n", k2.GetBase16().c_str());
 			printf("=================================================================================\n");
 			return false;
 		}
