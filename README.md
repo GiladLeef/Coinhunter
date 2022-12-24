@@ -1,5 +1,5 @@
 # Coinhunter
-Hunting for bitcoin/ethereum private keys
+Brute Forcing bitcoin/ethereum private keys
 
 Libraries installation:
 
